@@ -1,0 +1,8 @@
+CREATE DATABASE notebook;
+
+CREATE TABLE notes(
+id SERIAL PRIMARY KEY NOT NULL,
+name VARCHAR(50) NOT NULL, 
+description VARCHAR(255) NULL,
+date_time TIMESTAMP NULL
+);
