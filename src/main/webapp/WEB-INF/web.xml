@@ -7,7 +7,6 @@
          version="5.0"
          metadata-complete="true">
 
-
       <servlet>
           <servlet-name>DispatcherServlet</servlet-name>
           <servlet-class>com.hillel.artemjev.notebook.infrastructure.DispatcherServlet</servlet-class>
@@ -18,32 +17,4 @@
           <url-pattern>/</url-pattern>
       </servlet-mapping>
 
-    <!--
-          <servlet>
-              <servlet-name>NotesServlet</servlet-name>
-              <servlet-class>com.hillel.artemjev.notebook.servlets.NotesServlet</servlet-class>
-          </servlet>
-          <servlet-mapping>
-              <servlet-name>NotesServlet</servlet-name>
-              <url-pattern>/</url-pattern>
-          </servlet-mapping>
-
-          <servlet>
-              <servlet-name>NoteServlet</servlet-name>
-              <servlet-class>com.hillel.artemjev.notebook.servlets.NoteServlet</servlet-class>
-          </servlet>
-          <servlet-mapping>
-              <servlet-name>NoteServlet</servlet-name>
-              <url-pattern>/notes/*</url-pattern>
-          </servlet-mapping>
-
-          <servlet>
-              <servlet-name>NoteDeleteServlet</servlet-name>
-              <servlet-class>com.hillel.artemjev.notebook.servlets.NoteDeleteServlet</servlet-class>
-          </servlet>
-          <servlet-mapping>
-              <servlet-name>NoteDeleteServlet</servlet-name>
-              <url-pattern>/delete</url-pattern>
-          </servlet-mapping>
-      -->
 </web-app>
