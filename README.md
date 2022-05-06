@@ -7,7 +7,8 @@ Improve routing in such way that controller methods can be annotated like: <br/>
 , where ***{id}*** is the variable part of the path, which should be transmitted into the request using *req.setAttribute* (inside a **single application servlet**) 
 and passed to **controller**.
 
-*For example:* by reference ***/users/17*** in the controller ***req.getAttribute("id")*** should return **17**.
+*For example:* by reference ***/users/17*** in the controller ***req.getAttribute("id")*** should return **17**.<br/><br/>
+*ps: simple spring:)*
  
  
 ***Задание:***
